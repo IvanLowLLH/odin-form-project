@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    
+}
+
+.logo-sidebar {
+    position: relative;
+    width: 500px;
+}
+
+.sidebar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-header {
+    position: absolute;
+    top: 100px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    opacity: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-div{
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-name {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
