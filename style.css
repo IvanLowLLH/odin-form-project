@@ -48,3 +48,15 @@ body {
     font-family: 'Oswald';
     font-size: 40px;
 }
+
+.image-credit {
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+    text-align: center;
+}
+
+.image-credit > p > a {
+    text-decoration: underline;
+    color: black;
+}
