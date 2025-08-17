@@ -51,17 +51,17 @@
                 </div>
                 <div class="label-input">
                     <label for="phone-num">Phone Number</label>
-                    <input id="phone-num" name="number" type="text" />
+                    <input id="phone-num" name="number" type="tel" />
                 </div>
             </div>
             <div class="form-row">
                 <div class="label-input">
                     <label for="user-password">Password</label>
-                    <input id="user-password" name="user-password" type="password" />
+                    <input id="user-password" name="user-password" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,12}$"/>
                 </div>
                 <div class="label-input">
                     <label for="confirm-password">Confirm Password</label>
-                    <input id="confirm-password" name="confirm-password" type="password" />
+                    <input id="confirm-password" name="confirm-password" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{6,12}$"/>
                 </div>
             </div>
         </form>
