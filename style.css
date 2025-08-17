@@ -77,17 +77,39 @@ body {
 .content-header > .text {
     position: absolute;
     bottom: 20%;
-    left: 20px;
+    margin-left: 20px;
 }
 
-.content-header > .text > p {
+.content-header > .text > p,
+.account-form>h1 {
     font-size: 25px;
     font-weight: bold;
     font-family: "Helvetica";
 }
 
 .account-form {
-    flex: 1;
+    flex: 0.75;
+    padding-left: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
 }
 
 .content-footer {
