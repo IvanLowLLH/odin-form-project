@@ -20,13 +20,14 @@ body {
 
 .logo-header {
     position: absolute;
-    top: 100px;
-    height: 100px;
+    top: 25%;
+    height: 15%;
     width: 100%;
     background-color: white;
     opacity: 75%;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .logo-div{
@@ -37,11 +38,13 @@ body {
 
 .logo-img {
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .logo-name {
     display: flex;
     justify-content: center;
     align-self: center;
+    font-family: 'Oswald';
+    font-size: 40px;
 }
