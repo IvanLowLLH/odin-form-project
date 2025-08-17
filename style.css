@@ -26,7 +26,7 @@ body {
 
 .logo-header {
     position: absolute;
-    top: 25%;
+    top: 21.3%;
     height: 15%;
     width: 100%;
     background-color: white;
@@ -43,7 +43,7 @@ body {
 }
 
 .logo-img {
-    padding-top: 10px;
+    padding-top: 18px;
     height: 100%;
     object-fit: fill;
 }
@@ -172,3 +172,12 @@ input:invalid {
     font-family: var(--sign-up-font);
 }
 
+.disclaimer {
+    position: absolute;
+    bottom: 3%;
+}
+
+.disclaimer > p {
+    font-style: italic;
+    font-size: 10px;
+}
