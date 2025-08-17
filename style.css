@@ -1,3 +1,9 @@
+:root {
+    --sign-up-font: "Helvetica",
+        "Arial",
+        sans-serif;
+}
+
 html,
 body {
     margin: 0;
@@ -84,7 +90,7 @@ body {
 .account-form>h1 {
     font-size: 25px;
     font-weight: bold;
-    font-family: "Helvetica";
+    font-family: var(--sign-up-font);
 }
 
 .account-form {
@@ -108,8 +114,18 @@ body {
     flex-direction: column;
 }
 
+label {
+    font-family: var(--sign-up-font);
+    font-weight: lighter;
+    font-size: 20px;
+}
+
 input {
     width: 200px;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: var(--sign-up-font);
 }
 
 .content-footer {
@@ -124,14 +140,14 @@ input {
 }
 
 .button-text > button {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;;
     padding: 10px 30px;
     color: white;
     background-color: #5db7ab;
     border: none;
     border-radius: 3px;;
-    font-family: "Helvetica";
+    font-family: var(--sign-up-font);
 }
 
 .button-text>button:hover {
@@ -143,5 +159,6 @@ input {
 }
 
 .button-text > p {
-    font-family: "Helvetica";
+    font-family: var(--sign-up-font);
 }
+
