@@ -1,17 +1,21 @@
+html,
 body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
-    
 }
 
 .logo-sidebar {
     position: relative;
-    width: 500px;
+    width: 650px;
 }
 
 .sidebar-img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .logo-header {
