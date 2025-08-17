@@ -126,6 +126,12 @@ input {
     padding: 7px;
     font-size: 16px;
     font-family: var(--sign-up-font);
+    border: 1px solid #D6D9DC;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 2px 2px 10px 1px lightgray;
 }
 
 .content-footer {
